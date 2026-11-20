@@ -28,14 +28,14 @@
         <header>
             <div class="container-fluid">
 
-                <nav>
+                <!--<nav>
                     <h1>Howdy, Ho!</h1>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></button>
                         <li>About Me</li>
                         <li>Work</li>
                         <li>Currently</li>
                         <li>Contact</li>
-                </nav>
+                </nav>-->
             </div>
             <div class="container">
                 <h1>Bwalya</h1>
@@ -47,9 +47,15 @@
     <!---check about adding a GET server request <form action="" method="GET">-->
                 <form>
                     <h1 class="contact"> Contact Me!</h1>
+                    <!------
                     <div class="container">
+                        ---->
+                   <!---fix this row issue  
                     <div class="row">
+                        --->
+                        <!-----
                         <div id="contact-left" col-12 col-md-6></div>
+                    -->
                             <label for="name">Name: </label>
                                 <input type="text" placeholder="First Name" id="first-name">
                                 <input type="text" placeholder="Last Name" id="last-name">
@@ -67,11 +73,18 @@
                                 <input type="text" placeholder="City, State, ZIP code" id="city-state-zip">
                             
                         </div>
+                        <!-----
                         <div id="contact-right" col-12 col-md-6>
+                            --->
+                            <br>
+                            <br>
                             <label for="reason">What's the Reason for Contact?</label>
                             <br>
                             <textarea id="reason" name="reason" rows="3%" cols="40%"></textarea>
                         </div>
+                        <section class="submission">
+                            <input type="submit" value="Submit">
+                        </section>
                     </div>
                     </div>
                 </form>
