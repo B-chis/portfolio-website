@@ -14,5 +14,27 @@
 }
 */
 body {
-    background-color: rgb(171, 137, 42);
+    background-color: #61f5a8;
 }
+
+a:link {
+    color: purple;
+    background-color: transparent;
+    
+}
+
+a:hover {
+    color: orange;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: greenyellow;
+    background-color: palevioletred;
+}
+
+<!-- HTML !-->
+<button class="button-74" role="button">Button 74</button>
+
+
