@@ -34,7 +34,8 @@ a:active {
     background-color: palevioletred;
 }
 
-<!-- HTML !-->
-<button class="button-74" role="button">Button 74</button>
+body.contact-page {
+    padding: 30px;
+}
 
 
