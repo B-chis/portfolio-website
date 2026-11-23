@@ -20,6 +20,7 @@ body {
 a:link {
     color: purple;
     background-color: transparent;
+    text-decoration: underline;
     
 }
 
@@ -51,8 +52,10 @@ a.navbar-brand {
 .c-form {
     background-color: rgb(237, 225, 217);
     width: 35%;
+    
     margin-left: 30%;
     margin-right: 30%;
+   
     margin-top: 10px;
     font-size: 20px;
     border-radius: 10px;
@@ -71,6 +74,9 @@ a.navbar-brand {
     background-color: rgb(15, 32, 2);
     color: whitesmoke;
     width: 20%;
+    text-align: center;
+
+    
     margin-top: 25px;
     margin-left: 37%;
 }
@@ -86,13 +92,19 @@ a.navbar-brand {
     border-radius: 20px;
     border-color: blue;
     margin: none;
+/*
+    text-align: center;
+*/
 }
 
 #message {
     padding: 16px 16px;
     border-radius: 10px;
+    
     margin-left: 30%;
+    
     width: 35%;
+    text-align: center;
 }
 
 #message:focus-within {
@@ -101,22 +113,25 @@ a.navbar-brand {
     border-width: 5px;
 }
 
+
 label {
     margin-left: 20%;
     margin-top: 25px;
 }
 
 .contact {
-    margin-left: 40%;
-    margin-right: 40%
-    padding: 30px;
+   padding: 30px;
+   
+    text-align: center;
+    margin-right: 5%;
 }
 
 .contact-info {
-    margin-left: 35%;
+    margin-left: 30%;
     margin-right: 35%;
     margin-top: 20px;
-    text-wrap-style: balance;
+    text-align: center;
+    text-wrap-style: pretty;
 }
 
 
@@ -125,3 +140,6 @@ label {
     color: red;
 }
 
+.work {
+    text-align: center;
+}
