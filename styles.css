@@ -104,12 +104,20 @@ p {
     margin-right: 5%;
 }
 
+.git-mes {
+    color:var(--primary-color);
+}
 
 a:link {
-    color: purple;
+    color: var(--accent-color);
     background-color: transparent;
     text-decoration: underline;
     
+}
+
+.git-mes {
+    position: fixed;
+    bottom: 20%;
 }
 
 a:hover {
