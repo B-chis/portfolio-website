@@ -21,3 +21,4 @@ switchTheme.addEventListener("click" , () => {
    darkModeOff()
 }
 })
+

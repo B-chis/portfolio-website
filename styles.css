@@ -82,6 +82,13 @@ p {
     
 }
 
+
+@media (prefers-color-scheme: dark){
+    .gitlight {
+        darkmode
+    }
+}
+
 .about {
    padding: 30px;
    color:var(--primary-color);
@@ -256,5 +263,8 @@ a.nav-link {
     */
 
 
-
+.gitlight {
+    float: right;
+    align: right;
+}
 
