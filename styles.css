@@ -13,9 +13,97 @@
     
 }
 */
-body {
-    background-color: #84e1a5;
+:root {
+    --back-color: #C5DDA7;
+    --back-color-2: #FEFFC8;
+    --text-color: #111709;
+    --text-color-2: #2C0B3E;
+    --primary-color: #030548;
+    --accent-color: #390101;
+
 }
+
+.darkmode {
+    --back-color: #111709;
+    --back-color-2: #2C0B3E;
+    --text-color: #FEFFC8;
+    --text-color-2: #FBFCC4;
+    --primary-color: #CCFFCD;
+    --accent-color: #BCFF12;
+
+}
+
+#switch-theme {
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border: none;
+    background-color: var(--base-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+#switch-theme svg{
+    fill: var(--primary-color);
+
+}
+
+#switch-theme svg:last-child {
+    display: none;
+}
+
+.darkmode #switch-theme svg:first-child {
+    display: none;
+}
+
+.darkmode #switch-theme svg:last-child {
+    display: block;
+}
+
+
+
+body {/*#202D0F
+    /*
+    background-color: #1D2619;
+   
+    #202D0F
+    */
+    background-color: var(--back-color);
+    
+}
+
+p {
+    
+    color: var(--text-color);
+    
+}
+
+.about {
+   padding: 30px;
+   color:var(--primary-color);
+    text-align: center;
+    margin-right: 5%;
+}
+
+
+.home {
+   padding: 30px;
+   color: var(--primary-color);
+    text-align: center;
+    margin-right: 5%;
+}
+
+.work {
+   padding: 30px;
+   color: var(--primary-color);
+    text-align: center;
+    margin-right: 5%;
+}
+
 
 a:link {
     color: purple;
@@ -35,7 +123,7 @@ a:active {
     background-color: palevioletred;
 }
 
-body.contact-page {
+body#contact-page {
     padding: 30px;
 }
 
@@ -50,7 +138,8 @@ a.navbar-brand {
 }
 
 .c-form {
-    background-color: rgb(237, 225, 217);
+    background-color: var(--text-color);
+    color: var(--back-color-2);
     width: 35%;
     
     margin-left: 30%;
@@ -71,8 +160,8 @@ a.navbar-brand {
 
 
 #submit-button {
-    background-color: rgb(15, 32, 2);
-    color: whitesmoke;
+    background-color: var(--accent-color);
+    color: var(--back-color);
     width: 20%;
     text-align: center;
 
@@ -100,11 +189,14 @@ a.navbar-brand {
 #message {
     padding: 16px 16px;
     border-radius: 10px;
-    
+    background-color: var(--text-color);
+    color: var(--back-color);
     margin-left: 30%;
     
     width: 35%;
+    /*
     text-align: center;
+    */
 }
 
 #message:focus-within {
@@ -113,15 +205,20 @@ a.navbar-brand {
     border-width: 5px;
 }
 
+::placeholder {
+    color: var(--back-color);
+
+}
 
 label {
     margin-left: 20%;
     margin-top: 25px;
+    color: var(--text-color);
 }
 
 .contact {
    padding: 30px;
-   
+   color: var(--primary-color);
     text-align: center;
     margin-right: 5%;
 }
@@ -143,3 +240,13 @@ label {
 .work {
     text-align: center;
 }
+
+a.nav-link {
+    /*
+    color:pink:
+}
+    */
+
+
+
+
