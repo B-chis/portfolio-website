@@ -113,6 +113,10 @@ p {
 
 .git-mes {
     color:var(--primary-color);
+    float: right;
+    position: static; 
+    
+
 }
 
 a:link {
@@ -256,11 +260,28 @@ label {
     text-align: center;
 }
 
-a.nav-link {
-    /*
-    color:pink:
+
+#profile-pic {
+    position: relative;
+    margin: auto;
+    margin-top: 40px;
+    display: block;
+    
 }
-    */
+
+
+
+
+#github-logo{
+    display: block;
+    float: right;
+
+}
+
+#linkedin-logo {
+    display: block;
+    float: right;
+}
 
 
 .gitlight {
@@ -268,3 +289,31 @@ a.nav-link {
     align: right;
 }
 
+.about-para {
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: auto;
+    padding: 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 1;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: center;
+    justify-content: center;
+    grid-gap: 20px;
+    height: 60px;
+
+}
+
+dialog {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+#connection {
+    float:right;
+    align:right;
+}
